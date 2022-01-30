@@ -20,4 +20,30 @@
 
 # elements = input("Добавить элемент нашего списка: ").split(',')
 # elements[:-1:2], elements[1::2] = elements[1::2], elements[:-1:2]
-# print(f'Обмен значений соседних элементов списка1: {elements} ')
+# print(f'Обмен значений соседних элементов списка: {elements} ')
+
+# 3. Пользователь вводит месяц в виде целого числа от 1 до 12.
+# Сообщить, к какому времени года относится месяц (зима, весна, лето, осень).
+# Напишите решения через list и dict.
+
+# number_month = int(input('Введите цифру месяца'))
+# seasons = {1 : 'зима', 2 : 'весна', 3 : 'лето', 4 : 'осень'}
+# seasons_list = ['зима', 'весна', 'лето', 'осень']
+# if number_month == 3 or number_month == 4 or number_month == 5:
+#     print(f'Месяц: {seasons_list[1]}')
+#     print(f'Месяц: {seasons.get(2)}')
+# elif number_month == 6 or number_month == 7 or number_month == 8:
+#     print(f'Месяц: {seasons_list[2]}')
+#     print(f'Месяц: {seasons.get(3)}')
+# elif number_month == 9 or number_month == 10 or number_month == 11:
+#     print(f'Месяц: {seasons_list[3]}')
+#     print(f'Месяц: {seasons.get(4)}')
+# elif number_month == 12 or number_month == 1 or number_month == 2:
+#     print(f'Месяц: {seasons_list[0]}')
+#     print(f'Месяц: {seasons.get(1)}')
+
+# Пользователь вводит строку из нескольких слов, разделённых пробелами.
+# Вывести каждое слово с новой строки.
+# Строки нужно пронумеровать.
+# Если слово длинное, выводить только первые 10 букв в слове.
+

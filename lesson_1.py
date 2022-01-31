@@ -10,7 +10,7 @@
 
 # Задание 2
 
-# seconds = 54654
+# seconds = int(input("Введите число:"))
 # minutes = seconds // 60
 # hours = minutes // 60
 # print(f'Час: {hours}  минут: {minutes} cекунд: {seconds}')
